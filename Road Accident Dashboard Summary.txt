@@ -1,0 +1,53 @@
+Road Accident 
+
+Client Requiremennt :-
+
+Client wants to create road accident dashboard for year 2022 and 2023
+so that thet can have insight on the below reqquiremnet -
+
+# Primery KPI - Total Casualties taken place after the accident
+# Primary KPI's - Total Casualties & Percentage of total with respect to accident severity and maximum casualties by type of vehicel
+# Secondary KPI's - Total Casualties with respect to vehicle type
+ 
+* Monthly trend showwing comparison of casualtieess for current Year and Previous Year
+
+* maximum casualties by road Type
+* Distribution of total casualties by road surface
+* Relation between Casualties by Area/Location & by day/Night
+
+
+STAKHOLDERS :- ( WHO USE THIS DATA )
+
+# MINISTRAY OF TRANSPORT
+# ROAD TRANSPORT DEPARTMMENT
+# POICE FORCE
+# EMERGENCY SERVICE DEPARTMENT
+# ROAD SAFETY CORPS
+# TRANSPORT OPERATORS
+# TRAFFIC MANAGEMENT AGENCIES
+# PUBLIC
+# MEDIA
+
+META DATA :-
+
+# File Extension - .xslx
+# No Of Rows - 3,07,974 
+# No Of Fields - 21
+
+
+FIRST STEP :-
+
+# DATA CLEANNING:-
+
+1) Add Filter ( check wrong or Missing  value or any Typo error )
+
+# DATA PROCESSSING:- ( add custommize column using some formulas )
+
+1) 01-01-2021 extract Month (jan) ( =text(date_cell,"mmm")
+2) 01-01-2021 extract year (2021) ( =text(date_cell,"yyyy")
+
+# Data Analysis and Data Visualisation:-
+
+1) creatte Pivot table 
+
+
